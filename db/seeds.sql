@@ -15,13 +15,13 @@ VALUES (3, "Director", 160000),
        (4, "Sales Manager", 105000),
        (4, "Advertising Manager", 95000);
 
-INSERT INTO employee_info (first_name, last_name, role_id, manager_id)
-VALUES ("Gilbert", "Chesterton", 1, 1),
-       ("Agatha", "Christie", 2, 1),
-       ("Kurt", "Vonnegut", 3, 2),
-       ("Neil", "Gaiman", 5, 1),
-       ("Terry", "Pratchett", 6, 1),
-       ("Richard", "Adams", 8, 1),
-       ("Douglas", "Adams", 4, 5),
-       ("Mary", "Shelly", 7, 6),
-       ("Isaac", "Asimov", 9, 8);
+INSERT INTO employee_info (employee_name, role_id, manager_id)
+VALUES ("Gilbert Chesterton", 1, 1),
+       ("Agatha Christie", 2, 1),
+       ("Kurt Vonnegut", 3, 2),
+       ("Neil Gaiman", 4, 1),
+       ("Terry Pratchett", 5, 1),
+       ("Richard Adams", 6, 1),
+       ("Douglas Adams", 7, 5),
+       ("Mary Shelly", 8, 6),
+       ("Isaac Asimov", 9, 8);
